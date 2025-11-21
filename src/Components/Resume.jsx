@@ -10,7 +10,7 @@ const Resume = () => {
           {/* Header */}
           <div className="row">
             <div className="col-md-6">
-              <h2 className="fw-bold">Ram Dubey</h2>
+              <h2 className="fw-bold">Ram Dwivedi</h2>
               <p className="mt-3">
                 LinkedIn:{"hhh "}
                 <a
@@ -66,7 +66,7 @@ const Resume = () => {
                 <strong>Languages:</strong> HTML5, CSS3, JavaScript (ES6+), Python
               </li>
               <li className="list-group-item">
-                <strong>Frontend:</strong> React.js, Redux Toolkit, Bootstrap
+                <strong>Frontend:</strong> React.js,  Bootstrap
               </li>
               <li className="list-group-item">
                 <strong>Backend:</strong> Django, Django REST Framework
@@ -75,7 +75,7 @@ const Resume = () => {
                 <strong>Database:</strong> MySQL, SQLite
               </li>
               <li className="list-group-item">
-                <strong>Tools:</strong> Git, GitHub, Postman, Vercel
+                <strong>Tools:</strong> Git, GitHub,  Vercel
               </li>
               <li className="list-group-item">
                 <strong>React Hooks:</strong> useState, useEffect, Context API
