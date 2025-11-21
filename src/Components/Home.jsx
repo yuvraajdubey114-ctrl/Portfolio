@@ -8,6 +8,8 @@ import Resume from "./Resume";
 import Contact from "./Contact";
 import Project from "./Project";
 
+import RamImage from '../assets/ram.jpg'; // Import your image here
+
 const Home = () => {
   const typedEl = useRef(null);
 
@@ -24,6 +26,7 @@ const Home = () => {
       backSpeed: 50,
       loop: true,
     });
+
     return () => typed.destroy();
   }, []);
 
@@ -69,7 +72,7 @@ const Home = () => {
             transition={{ duration: 1.2, ease: "easeOut" }}
           >
             <motion.img
-              src="https://www.w3schools.com/howto/img_avatar.png"
+              src={RamImage}
               alt="Full-Stack Developer"
               className="img-fluid shadow border border-primary"
               style={{ width: "50%", borderRadius: "8px" }}

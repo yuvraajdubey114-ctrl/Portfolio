@@ -33,7 +33,7 @@ const Footer = () => {
         <div className="row justify-content-center mb-3">
           <div className="col-auto">
             <a
-              href="https://github.com/kuldeep12309/"
+              href="https://github.com/yuvraajdubey114-ctrl/Portfolio"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline-dark btn-sm mx-2 fw-semibold"
@@ -41,7 +41,7 @@ const Footer = () => {
               GitHub
             </a>
             <a
-              href="https://www.linkedin.com/in/kuldeep-gupta-a0b299327/"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline-primary btn-sm mx-2 fw-semibold"
@@ -55,7 +55,7 @@ const Footer = () => {
 
         <p className="mb-0 small text-muted">
           &copy; {new Date().getFullYear()}{" "}
-          <strong className="text-dark">Kuldeep Gupta</strong>. All rights reserved.
+          <strong className="text-dark">Ram Dwivedi</strong>. All rights reserved.
         </p>
       </div>
     </footer>

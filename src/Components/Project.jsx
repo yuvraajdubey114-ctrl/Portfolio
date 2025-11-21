@@ -6,8 +6,8 @@ const Project = () => {
       description:
         "A personal portfolio website built using React with smooth animations and modern UI. Showcases my projects, skills, and contact details.",
       tech: ["React", "React Bits", "Bootstrap"],
-      live: "https://portfolio-rho-rosy-kyenn36oir.vercel.app/",
-      github: "https://github.com/kuldeep12309/Portfolio",
+      live: "https://portfolio-rho-mauve-35.vercel.app/",
+      github: "https://github.com/yuvraajdubey114-ctrl/Portfolio",
     },
     {
       id: 2,
