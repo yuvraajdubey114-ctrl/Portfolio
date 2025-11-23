@@ -8,7 +8,7 @@ import Resume from "./Resume";
 import Contact from "./Contact";
 import Project from "./Project";
 
-import RamImage from '../assets/ram.jpg'; // Import your image here
+import RamImage from '../assets/ram.jpg'; 
 
 const Home = () => {
   const typedEl = useRef(null);

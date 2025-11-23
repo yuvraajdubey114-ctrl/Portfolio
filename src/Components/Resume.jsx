@@ -12,25 +12,32 @@ const Resume = () => {
             <div className="col-md-6">
               <h2 className="fw-bold">Ram Dwivedi</h2>
               <p className="mt-3">
-                LinkedIn:{"hhh "}
+                <strong>LinkedIn:</strong>{" "}
                 <a
-                  href="?"
+                  href="https://www.linkedin.com/in/ram-dwivedi-b7a489397/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  
-                </a>{"hhh "}
-                |{" "}
-                <a href="" target="_blank">
-                  GitHub
-                </a>{"hhh "}
-                |{" "}
+                  https://www.linkedin.com/in/ram-dwivedi-b7a489397/
+                </a>
+                {" | "}
+                <strong>GitHub:</strong>{" "}
                 <a
-                  href=""
+                  href="https://github.com/yuvraajdubey114-ctrl/Portfolio"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Portfolio
+                  https://github.com/yuvraajdubey114-ctrl/Portfolio
+                </a>
+                {" | "}
+                <strong>Portfolio:</strong>{" "}
+                <a
+                  href="https://portfolio-rho-mauve-35.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://portfolio-rho-mauve-35.vercel.app/
+                  Portfolio Link
                 </a>
               </p>
             </div>
@@ -40,7 +47,7 @@ const Resume = () => {
                 <strong>Email:</strong> yuvraajdubey114@gmail.com
               </p>
               <p>
-                <strong>Mobile:</strong> +91 6306479926,9236300132
+                <strong>Mobile:</strong> +91 6306479926, 9236300132
               </p>
             </div>
           </div>
@@ -66,7 +73,7 @@ const Resume = () => {
                 <strong>Languages:</strong> HTML5, CSS3, JavaScript (ES6+), Python
               </li>
               <li className="list-group-item">
-                <strong>Frontend:</strong> React.js,  Bootstrap
+                <strong>Frontend:</strong> React.js, Bootstrap
               </li>
               <li className="list-group-item">
                 <strong>Backend:</strong> Django, Django REST Framework
@@ -75,11 +82,11 @@ const Resume = () => {
                 <strong>Database:</strong> MySQL, SQLite
               </li>
               <li className="list-group-item">
-                <strong>Tools:</strong> Git, GitHub,  Vercel
+                <strong>Tools:</strong> Git, GitHub, Vercel
               </li>
-              <li className="list-group-item">
+              {/* <li className="list-group-item">
                 <strong>React Hooks:</strong> useState, useEffect, Context API
-              </li>
+              </li> */}
               <li className="list-group-item">
                 <strong>Soft Skills:</strong> Communication, Teamwork, Problem Solving
               </li>
@@ -106,17 +113,17 @@ const Resume = () => {
                   Created and integrated REST APIs for frontend–backend communication.
                 </li>
                 <li className="list-group-item">
-                  Developed dynamic UI using React Hooks and Bootstrap.
+                  Developed dynamic UI using React and Bootstrap.
                 </li>
                 <li className="list-group-item">
-                  Managed backend logic with Django ORM and MySQL.
+                  Managed backend logic with Django and MySQL.
                 </li>
                 <li className="list-group-item">
                   Used Git & GitHub for source control and Vercel for deployment.
                 </li>
-                <li className="list-group-item">
+                {/* <li className="list-group-item">
                   Tested APIs using Postman for smooth integration.
-                </li>
+                </li> */}
               </ul>
             </div>
           </section>
@@ -125,15 +132,15 @@ const Resume = () => {
           <section className="mb-4">
             <h3 className="fw-semibold border-bottom pb-1">PROJECTS</h3>
             <ul className="list-group list-group-flush mt-2">
-              <li className="list-group-item">
-                <strong>1. E-Commerce Website (React + Redux Toolkit):</strong> Developed an e-commerce app using React, Redux Toolkit and REST API. Deployed on Vercel.
-              </li>
+              {/* <li className="list-group-item">
+                {/* <strong>1. E-Commerce Website (React + Redux Toolkit):</strong> Developed an e-commerce app using React, Redux Toolkit and REST API. Deployed on Vercel.
+              </li> */} 
               <li className="list-group-item">
                 <strong>2. Portfolio Website (React + Animations):</strong> Built a modern personal portfolio with smooth UI and animations using React.
               </li>
-              <li className="list-group-item">
+              {/* <li className="list-group-item">
                 <strong>3. E-Commerce (React + Django REST + MySQL):</strong> Full-stack project with product APIs, cart system, and MySQL backend.
-              </li>
+              </li> */}
               <li className="list-group-item">
                 <strong>4. REST API Project (DRF + MySQL):</strong> Built CRUD APIs using Django REST Framework and MySQL database.
               </li>
